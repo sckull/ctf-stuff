@@ -1,2 +1,2 @@
-# ctf-stuff
-Scripts, writeups, etc.
+# CTF STUFF
+Scripts and stuff about CTF, ROOMS, BOX, etc. #HackTheBox #TryHackMe
