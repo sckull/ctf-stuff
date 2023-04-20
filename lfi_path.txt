@@ -1012,3 +1012,7 @@
 /proc/self/fd/98
 /proc/self/fd/99
 /proc/self/fd/100
+/var/log/laurel/audit.log
+/etc/laurel/config.toml
+/etc/audit/plugins.d/laurel.conf
+/etc/systemd/system/project.service
